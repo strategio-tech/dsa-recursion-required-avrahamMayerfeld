@@ -22,7 +22,7 @@ public class E01 {
             return fib[n];
         else if (n > 2)
         {
-            fib[n] = getNthFib[n-1] + getNthFib[n-2];
+            fib[n] = getNthFib(n-1) + getNthFib(n-2);
             return fib[n];
         }
     }
